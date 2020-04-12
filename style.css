@@ -1,12 +1,5 @@
-html
-{
-background-image: url(https://images.unsplash.com/photo-1533750349088-cd871a92f312?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-background-position: relative;
-top:0;
-left:0;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
+body{
+	margin: 1px 0;
 }
 
 .heading
@@ -15,19 +8,23 @@ background-attachment: fixed;
 	color: white;
 	text-align: center;
 	height:45px;
-	background-position: fixed;
-	top:0;
-	left: 0;
-	padding: 10px 10px;
+	margin-block-start:0px;
+	margin-block-end: 0px;
+	padding: 10px;
 }
-.content
+.cards
 {
-	font-size: 21px;
-	padding: 20px;
-	font-family: Arial;
-	justify-content: 10px;
-	margin: 200px auto;
-	width:50%;
-	color: white;
-	justify-content: center;
+	border:1px solid black;
+	margin-top: 20px;
+}
+.cards p
+{
+	display: inline-flex;
+	height: 150px;
+	min-width: 150px;
+	max-width: 200px;
+	box-sizing: border-box;
+	margin-left: 10px;
+	background-color: green;
+	font-size: 120%;
 }
