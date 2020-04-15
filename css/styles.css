@@ -19,7 +19,38 @@ body {
 	background-position: center;
 	background-size: cover;
 }
-.nav-brand:hover
+.navbar-brand a:hover, .navbar-brand a:focus
 {
 	text-decoration: none;
 }
+button.navbar-toggler{
+	clear:both;
+}
+.jumbotron
+{
+margin-top: 10px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  }
