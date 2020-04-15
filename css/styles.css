@@ -13,8 +13,13 @@ body {
 {
 	height: 100px;
 	width:100px;
+	float: left !important;
 	background-image: url("../images/logo-img.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+.nav-brand:hover
+{
+	text-decoration: none;
 }
