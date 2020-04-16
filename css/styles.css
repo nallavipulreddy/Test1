@@ -11,9 +11,9 @@ body {
 
 #logo-img
 {
-	height: 100px;
-	width:100px;
-	float: left !important;
+  	width: 100px;
+  	height: 100px;
+  	margin: 10px 15px 10px 0;
 	background-image: url("../images/logo-img.png");
 	background-repeat: no-repeat;
 	background-position: center;
