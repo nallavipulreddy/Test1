@@ -57,10 +57,10 @@ button.navbar-toggler {
   .jumbotron
   {
     background-image: url("https://www.awesomecuisine.com/wp-content/uploads/2014/07/mysore_masala_dosa.jpg");
-    background-size: initial;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 600px;
     width: auto;
   }
 }
